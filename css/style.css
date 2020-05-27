@@ -33,3 +33,23 @@ main {
     width: 100%;
     border-bottom: 3px solid gray;
 }
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #8b8b8b;
+    font-size: 18px;
+    text-transform: uppercase;
+     
+}
+.menu {
+    width: 75%;
+    float: left;
+}
+.busca {
+    width: 25%;
+    float: right;
+}
