@@ -3,6 +3,9 @@ body {
     height: 100%;
     margin: 0 auto;
 }
+ul {
+    padding: 0px!important;
+}
 .menu-principal {
     width: 100%;
     background-color:black;
@@ -19,7 +22,7 @@ main {
     width: 75%;
 }
 .redes-sociais ul li {
-    margin-left: 15px;
+    margin-left: 20px;
     display: inline-block;
     float: left;
     list-style: none;
@@ -30,13 +33,27 @@ main {
 }
 .header2 {
     background-color: white;
-    width: 100%;
-    border-bottom: 3px solid gray;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+
+}
+.menu-urls {
+    height: 80px;
+    border-bottom: 1px solid gray;
+}
+.menu ul li a:hover{
+    color: #83AF9B;
+
 }
 .menu ul li {
     display: inline-block;
     color: #8b8b8b;
     margin-left: 15px;
+    height: 45px;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid #83AF9B;
 }
 .menu ul li a {
     text-decoration: none;
@@ -46,10 +63,26 @@ main {
      
 }
 .menu {
-    width: 75%;
+    width: 70%;
     float: left;
 }
 .busca {
+    text-align: center;
     width: 25%;
     float: right;
+}
+.busca input {
+    background-image: url('../Imagens/icone-search.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 10px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 10px;
+    border: 1px solid grey;
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
 }
