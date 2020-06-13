@@ -11,7 +11,7 @@ ul {
     background-color:black;
     height: 60px;
 }
-main {
+main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -145,4 +145,24 @@ li.slick-active button {
     padding: 5px;
     display: inline-block;
 }
-
+.texto-destaque h1{
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.texto-destaque {
+    text-align: center;
+}
+.texto-destaque p {
+    font-size: 18px;
+    color: #6d6d6d;  
+}
+.col-3 {
+    width: 30%;
+    position: relative;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.bloco-texto {
+    margin-top: 3em;
+}

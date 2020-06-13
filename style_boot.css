@@ -1,0 +1,41 @@
+/*Gerais*/
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.row {
+    margin: 0;
+
+}
+.container {
+    padding: 70px 0;
+}
+p, li {
+    color: aquamarine;
+    font-size: 14px;
+}
+/*Barra de Navegação*/
+header, .navbar {
+    background-color: #353d41;
+}
+#nav-container {
+    padding-top:0 ;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+.navbar-brand {
+    padding: 0;
+    color: white;
+}
+.navbar-brand:hover {
+    color: white;
+}
+#navbar-links a {
+    color: #ffffff;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem ,8rem;
+}
