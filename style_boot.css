@@ -1,46 +1,59 @@
-/*Gerais*/
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-.row {
+/* Gerais */
+body {
+  font-family: 'Amaranth', sans-serif;
+  }
+  
+  .row {
     margin: 0;
-
-}
-.container {
+  }
+  
+  .container {
     padding: 70px 0;
-}
-p, li {
-    color: aquamarine;
+  }
+  
+  p, li {
+    color: #444;
     font-size: 14px;
-}
-/*Barra de Navegação*/
-header, .navbar {
-    background-color: #353d41;
-}
-#nav-container {
-    padding-top:0 ;
+  }
+  
+  /* Barra de navegação */
+  header, .navbar {
+    background-color: #353D41;
+  }
+  
+  #nav-container {
+    padding-top: 0;
     padding-bottom: 0;
-}
-
-#logo {
+  }
+  
+  #logo {
     width: 75px;
-}
-.navbar-brand {
+  }
+  
+  .navbar-brand {
     padding: 0;
-    color: white;
-}
-.navbar-brand:hover {
-    color: white;
-}
-#navbar-links a {
-    color: #ffffff;
-}
-.navbar-expand-lg .navbar-nav .nav-link{
-    padding: 1rem ,8rem;
-}
-/*Slider*/
-.container-fluid {
+    color: #FFF;
+  }
+  
+  .navbar-brand:hover {
+    color: #FFF;
+  }
+  
+  #navbar-links a {
+    color: #FFF;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+  }
+  
+  .nav-item.active {
+    border-bottom: 3px solid #FFF;
+  }
+  
+  /* Slider */
+  
+  .container-fluid {
     padding: 0 !important;
   }
   
@@ -65,7 +78,7 @@ header, .navbar {
   }
   
   .main-btn {
-    background-color: #104225de;
+    background-color: #65DAF9;
     color: #FFF;
     text-transform: uppercase;
     width: 200px;
@@ -80,9 +93,54 @@ header, .navbar {
     text-decoration: none;
     color: #FFF;
     background-color: transparent;
-    border-color: #104225de;
+    border-color: #3EC1D5;
   }
   
   .carousel-indicators .active {
-    background-color: rgb(23, 61, 23);
+    background-color: #65DAF9;
   }
+ 
+/* Sobre a empresa */
+
+#about-area {
+    background-color: #F9F9F9;
+  }
+  
+  .main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+  }
+  
+  .about-title {
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  #about-list {
+    list-style: none ;
+    padding-left: 0 !important;
+  }
+  
+  #about-list li {
+    line-height: 30px;
+  }
+  
+  #about-list i {
+    color: #000000;
+    margin-right: 15px;
+  }
+  
+  
