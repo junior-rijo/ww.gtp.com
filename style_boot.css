@@ -177,3 +177,74 @@ body {
   font-size: 26px;
   margin-top: 20px;
 }
+/*time*/
+.card-body {
+  text-align: center;
+}
+/* Trabalhe Conosco*/
+#apply-area {
+  height: 500px;
+}
+#apply-area .container-fluid, #apply-area .row{
+  height: 100%;
+}
+#apply-area .apply-box {
+  text-align: center;
+  padding: 70px 50px;
+}
+#company-img {
+  background-image: url(./Imagens/empresa.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+#patern-img h4, #patern-img p{
+  color: #FFF;
+}
+#patern-img h4 {
+  margin-top: 8%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+#patern-img p {
+  margin-bottom: 20px;
+}
+#apply-btn {
+  display: block;
+  height: auto;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: transparent;
+  border-color: #F9F9F9;
+}
+#apply-btn:hover{
+  border-color: #65DAF9;
+  background-color: #65DAF9;
+}
+/*Portifólio*/
+.project-box {
+  margin-bottom: 30px;
+}
+#filter-btn-box {
+  margin-bottom: 50px;
+  text-align: center;
+}
+#portfolio-area .filter-btn {
+  color: #444;
+  border: 1px solid #444;
+  background-color: transparent;
+  text-transform: none;
+  margin: 0 15px;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+}
+#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+  color: #FFF;
+  background-color: #65DAF9;
+  border-color: #65DAF9;
+}
