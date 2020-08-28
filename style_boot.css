@@ -70,18 +70,27 @@ body {
     font-size: 50px;
     margin-bottom: 30px;
     background-color: #00000086;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
   }
   
-  #mainSlider .carousel-caption p {
+  /*#mainSlider .carousel-caption p {
     font-size: 22px;
     font-weight: 300;
     margin-bottom: 100px;
     color: #FFF;
+    border-radius: 100px;
+    background-color: #00000086;
+    width: 900px;
+    height: auto;
+    padding: 10px 20px;
     
-  }
+  }*/
   
   .main-btn {
-    background-color: #65DAF9;
+    background-color: #2b965b;
     color: #FFF;
     text-transform: uppercase;
     width: 200px;
@@ -96,7 +105,7 @@ body {
     text-decoration: none;
     color: #FFF;
     background-color: transparent;
-    border-color: #3EC1D5;
+    border-color: #2b965b;
   }
   
   .carousel-indicators .active {
