@@ -115,7 +115,7 @@ body {
   }
   
   .carousel-indicators .active {
-    background-color: #65DAF9;
+    background-color: #2b965b;
   }
  
 /* Sobre a empresa */
@@ -178,7 +178,7 @@ body {
     margin-bottom: 20px;
   }
   .service-box:hover > i, .service-box:hover > h4 {
-    color: #65DAF9;
+    color: #2b965b;
   }
   
 /*Dados*/
@@ -238,8 +238,8 @@ body {
   border-color: #F9F9F9;
 }
 #apply-btn:hover{
-  border-color: #65DAF9;
-  background-color: #65DAF9;
+  border-color: #2b965b;
+  background-color: #2b965b;
 }
 /*Portifólio*/
 .project-box {
@@ -263,8 +263,8 @@ body {
 }
 #portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
   color: #FFF;
-  background-color: #65DAF9;
-  border-color: #65DAF9;
+  background-color: #2b965b;
+  border-color: #2b965b;
 }
 /*newa letter */
 #news-area {
@@ -279,7 +279,7 @@ body {
   border-radius: 0;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  border: 1px solid #65DAF9;
+  border: 1px solid #2b965b;
   display: inline;
   box-sizing: border-box;
   width: 40%;
@@ -288,8 +288,8 @@ body {
 #news-btn {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  border: 1px solid #65DAF9;
-  background-color: #65DAF9;
+  border: 1px solid #2b965b;
+  background-color: #2b965b;
   text-transform: uppercase;
   color: #FFF;
   height: 40px;
@@ -333,7 +333,7 @@ body {
 }
 #call-area #call-btn {
   background-color: #FFF;
-  color: #65DAF9;
+  color: #2b965b;
   font-weight: bold;
   font-size: 20px;
   margin-left: 30px;
@@ -348,7 +348,7 @@ body {
 .contact-box {/*divisor*/
   padding-bottom: 50px;
   margin-bottom: 50px;
-  border-bottom: 1px solid #3EC1D5;
+  border-bottom: 1px solid #2b965b;
 }
 
 .contact-box i {/*bordas icones*/
@@ -367,7 +367,7 @@ body {
 }
 .contact-title {
   font-weight: bold;
-  color: #3EC1D5;
+  color: #2b965b;
 }
 
 #msg-box p {
@@ -385,7 +385,7 @@ body {
 }
 
 #contact-form .main-btn:hover{
-  color: #3EC1D5;
+  color: #2b965b;
 }
 
 /*Copy*/
@@ -408,5 +408,5 @@ body {
 }
 #copy-area .container a:hover {
   text-decoration: none;
-  color: #3EC1D5;
+  color: #2b965b;
 }
